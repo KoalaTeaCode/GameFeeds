@@ -1,0 +1,7 @@
+<div class=col-md-12 ng-controller=GenreCtrl>
+  <div ng-repeat="genre in genres | filter: parent='none'" class="article col-md-3" style="margin-top:40px;">
+    <div class="article-wrap">
+      <h2><a href="#/articles/genres/{{genre.name}}">{{genre.name}}</a></h2>
+    </div>
+  </div>
+</div>

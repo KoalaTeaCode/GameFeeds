@@ -1,0 +1,8 @@
+<div class=col-md-12 ng-controller=ConsoleCtrl>
+  <div ng-repeat="console in consoles" class="article col-md-3" style="margin-top:40px;">
+    <div class="article-wrap">
+      <h2><a href="#/articles/consoles/{{console.title}}">{{console.title}}</a></h2>
+      <button type="button" class="btn btn-primary" ng-click="follow(console)">Follow</button>
+    </div>
+  </div>
+</div>
